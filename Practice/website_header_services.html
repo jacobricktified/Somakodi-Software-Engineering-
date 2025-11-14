@@ -1,0 +1,77 @@
+<!--Create a website header. It should consist of 2 elements:
+
+Logo
+Navigation section. It should contain a bulleted list with two elements
+Add a <main> section. Inside, create a section with a header with an <h2> tag and two blocks describing the new services.
+
+Don't forget that inside the <article> tag, there should be a header. Mark up these headers with the h3 tag.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style-type: disc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+        nav ul li {
+            display: inline;
+        }
+        main {
+            padding: 1rem;
+        }
+        section article {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Website header with logo and navigation -->
+<header>
+    <div class="logo">
+        <h1>MyLogo</h1>
+    </div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Our New Services</h2>
+        <article>
+            <h3>Service One</h3>
+            <p>Description of the first new service. This explains what it offers and why it is valuable to clients.</p>
+        </article>
+        <article>
+            <h3>Service Two</h3>
+            <p>Description of the second new service. This explains its benefits and how it can help clients achieve their goals.</p>
+        </article>
+    </section>
+</main>
+
+</body>
+</html>
